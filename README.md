@@ -1,4 +1,1 @@
-WeatherAlarm
-============
-
-WeatherAlarm
+This program plays a certain song depending on what the predicted temperature is on that day. Change the city in weather_fetcher.py to your home town. Change the time in timer.py to your alarm time. Must have mplayer installed. Also, make a folder called "Music" in the same folder as the scripts. And then create subfolders: '0', '1', '2', '3', '4', and '5'. In these folders, put songs in each (must be flac, mp3 or wma) and it will play them for you! O is for no internet connection. 1 is below 32 degrees. 2 is 32-50 degrees. 3 is 50-70 degrees. 4 is 70-90 degrees and 5 is 90+ degrees. All measurements in Farenheit. Enjoy! 
