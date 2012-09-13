@@ -2,7 +2,7 @@ import urllib2
 import json
 class WeatherFetcher:
     def wundergroundFetch(self):
-        page = urllib2.urlopen('http://api.wunderground.com/api/2ca02f07b8a1e20a/conditions/q/IL/Warrenville.json')
+        page = urllib2.urlopen('http://api.wunderground.com/api/2ca02f07b8a1e20a/conditions/q/CA/Mountain_View.json')
         if page == None:
             return None
         json_string = page.read()
